@@ -1,0 +1,17 @@
+name: LocalInventory
+version: 1.2
+main: com.cyux.localinv.LocalInventory
+api-version: 1.20
+commands:
+  sli:
+    description: Saves your inventory.
+  lli:
+    description: Loads your inventory.
+  ali:
+    description: View a player's saved local inventory.
+    permission: localinv.admin
+    usage: /ali <playername>
+permissions:
+  localinv.admin:
+    description: Allows use of the admin local inventory command.
+    default: op
